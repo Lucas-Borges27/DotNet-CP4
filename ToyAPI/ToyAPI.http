@@ -1,0 +1,6 @@
+@ToyAPI_HostAddress = http://localhost:5207
+
+GET {{ToyAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
