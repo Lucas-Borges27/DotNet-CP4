@@ -1,5 +1,7 @@
 # ToyAPI
 
+Repositório: https://github.com/Lucas-Borges27/DotNet-CP4
+
 API REST para gerenciamento de brinquedos de criancas ate 14 anos, usando ASP.NET Core Web API e Entity Framework Core com Oracle.
 
 ## Tecnologias
@@ -18,7 +20,7 @@ API REST para gerenciamento de brinquedos de criancas ate 14 anos, usando ASP.NE
 - `PUT /brinquedos/{id}` - atualiza um brinquedo existente
 - `DELETE /brinquedos/{id}` - remove um brinquedo
 
-## Exemplo de JSON (POST)
+## Exemplo de JSON (cadastro de brinquedo - POST)
 ```json
 {
   "nome_brinquedo": "Carrinho Hot Wheels",
