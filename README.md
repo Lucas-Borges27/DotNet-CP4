@@ -82,12 +82,14 @@ Inclua os prints abaixo no repositorio e atualize esta secao com os caminhos das
 
 Swagger:
 - `docs/prints/swagger-get-all.png`
+- `docs/prints/swagger-get.png`
 - `docs/prints/swagger-post.png`
 - `docs/prints/swagger-put.png`
 - `docs/prints/swagger-delete.png`
 
 Postman/Insomnia:
 - `docs/prints/postman-get-all.png`
+- `docs/prints/postman-get.png`
 - `docs/prints/postman-post.png`
 - `docs/prints/postman-put.png`
 - `docs/prints/postman-delete.png`
