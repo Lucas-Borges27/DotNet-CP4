@@ -1,0 +1,87 @@
+{
+  "info": {
+    "name": "ToyAPI",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "GET /brinquedos",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:5207/brinquedos",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "5207",
+          "path": ["brinquedos"]
+        }
+      }
+    },
+    {
+      "name": "GET /brinquedos/{id}",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:5207/brinquedos/1",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "5207",
+          "path": ["brinquedos", "1"]
+        }
+      }
+    },
+    {
+      "name": "POST /brinquedos",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"nome_brinquedo\": \"Carrinho Hot Wheels\",\n  \"tipo_brinquedo\": \"Carro\",\n  \"classificacao\": \"5+\",\n  \"tamanho\": \"Pequeno\",\n  \"preco\": 29.90\n}"
+        },
+        "url": {
+          "raw": "http://localhost:5207/brinquedos",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "5207",
+          "path": ["brinquedos"]
+        }
+      }
+    },
+    {
+      "name": "PUT /brinquedos/{id}",
+      "request": {
+        "method": "PUT",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"nome_brinquedo\": \"Carrinho Hot Wheels\",\n  \"tipo_brinquedo\": \"Carro\",\n  \"classificacao\": \"6+\",\n  \"tamanho\": \"Pequeno\",\n  \"preco\": 34.90\n}"
+        },
+        "url": {
+          "raw": "http://localhost:5207/brinquedos/1",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "5207",
+          "path": ["brinquedos", "1"]
+        }
+      }
+    },
+    {
+      "name": "DELETE /brinquedos/{id}",
+      "request": {
+        "method": "DELETE",
+        "url": {
+          "raw": "http://localhost:5207/brinquedos/1",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "5207",
+          "path": ["brinquedos", "1"]
+        }
+      }
+    }
+  ]
+}

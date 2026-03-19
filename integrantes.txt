@@ -1,3 +1,8 @@
+Lucas Borges de Souza - RM560027
+Pedro Henrique da Silva - RM560393
+Bruno Carlos Soares - RM559250
 Kauê Vinicius Samartino da Silva - RM559317
 João dos Santos Cardoso de Jesus - RM560400
 Davi Praxedes Santos - RM563719
+
+Repositório: https://github.com/Lucas-Borges27/DotNet-CP4

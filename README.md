@@ -31,6 +31,23 @@ API REST para gerenciamento de brinquedos de criancas ate 14 anos, usando ASP.NE
 }
 ```
 
+## Exemplo de JSON (atualizacao - PUT)
+```json
+{
+  "nome_brinquedo": "Carrinho Hot Wheels",
+  "tipo_brinquedo": "Carro",
+  "classificacao": "6+",
+  "tamanho": "Pequeno",
+  "preco": 34.90
+}
+```
+
+## Exemplo de DELETE
+Endpoint:
+`DELETE /brinquedos/{id}`
+Exemplo:
+`DELETE /brinquedos/1`
+
 ## Como rodar o projeto
 1. Ajuste a string de conexao em `ToyAPI/appsettings.json` com seus dados do Oracle:
    - `User Id`, `Password`, `HOST`, `PORTA` e `SERVICE_NAME`
@@ -58,6 +75,27 @@ dotnet run --project ToyAPI
 1. Crie uma nova collection.
 2. Adicione requests para os endpoints listados acima.
 3. Para `POST` e `PUT`, use `Body -> raw -> JSON` e cole o exemplo de JSON.
+4. Para facilitar, importe o arquivo `postman_collection.json` deste repositorio.
+
+## Evidencias (prints)
+Inclua os prints abaixo no repositorio e atualize esta secao com os caminhos das imagens.
+
+Swagger:
+- `docs/prints/swagger-get-all.png`
+- `docs/prints/swagger-post.png`
+- `docs/prints/swagger-put.png`
+- `docs/prints/swagger-delete.png`
+
+Postman/Insomnia:
+- `docs/prints/postman-get-all.png`
+- `docs/prints/postman-post.png`
+- `docs/prints/postman-put.png`
+- `docs/prints/postman-delete.png`
+
+Testes unitarios:
+- `docs/prints/tests-dotnet-test.png`
+
+Observacao: os prints devem mostrar a URL (localhost), metodo HTTP, payload e resposta.
 
 ## Acessar no Oracle SQL Developer
 1. Crie uma nova conexao no SQL Developer.
